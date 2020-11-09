@@ -1,0 +1,6 @@
+.curriculum {
+    background-color: var(--white-color);
+    margin: 4rem;
+    /* display: grid;
+    grid-template-areas: "heading cv-content"; */
+}
