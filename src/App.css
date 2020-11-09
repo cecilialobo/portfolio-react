@@ -12,6 +12,14 @@
   --shadow: 1px 1px #ab8d6b;
 }
 
+.section1 {
+  background: rgb(245,235,229);
+  background: linear-gradient(90deg, rgba(245,235,229,1) 0%, rgba(237,212,212,1) 90%);
+  height: 100vh;
+  text-align: center;
+  color: var(--brown-color);
+}
+
 .title {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 6.5rem;
@@ -30,4 +38,21 @@
   margin: 4rem;
   animation-name: start;
   animation-duration: 2s;
+}
+
+.section2 {
+  background-color: var(--white-color);
+  grid-area: section2;
+  place-self: center;
+  height: 100vh;
+  /* margin-left: 3rem; */
+}
+
+.heading {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 3.5rem;
+  color: var(--brown-color);
+  margin: 1.6rem 4rem;
+  grid-area: heading;
+  text-shadow: var(--shadow);
 }
