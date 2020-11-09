@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Nothing+You+Could+Do&display=swap');
+
+:root {
+  --brown-color: #625240;
+  --pink-color: #f5ebe5;
+  --white-color: #fefffe;
+  --shadow: 1px 1px #ab8d6b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 6.5rem;
+  font-weight: 100;
+  margin: 8rem auto 0 auto;
+  text-shadow: var(--shadow);
+  animation-name: start;
+  animation-duration: 2s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.frontend-title {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.6rem;
+  font-weight: 100;
+  letter-spacing: 0.3rem;
+  margin: 4rem;
+  animation-name: start;
+  animation-duration: 2s;
 }
