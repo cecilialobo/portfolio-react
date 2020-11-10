@@ -1,6 +1,5 @@
 import React from 'react';
-import './index.css';
-import './About.css';
+
 import './Curriculum.css';
 
 function Curriculum (props){

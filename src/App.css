@@ -42,10 +42,7 @@
 
 .section2 {
   background-color: var(--white-color);
-  grid-area: section2;
-  place-self: center;
   height: 100vh;
-  /* margin-left: 3rem; */
 }
 
 .heading {
@@ -55,4 +52,9 @@
   margin: 1.6rem 4rem;
   grid-area: heading;
   text-shadow: var(--shadow);
+}
+
+.section3 {
+    background-color: var(--white-color);
+    margin: 4rem;
 }
