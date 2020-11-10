@@ -9,8 +9,7 @@ function Contact() {
             <p className="textp">cecilialobo92@gmail.com</p>
             <br/>
             <h3 className="subtitle">Social</h3>
-            <a href="https://github.com/cecilialobo" target="blank" class="social-icon"><i class="fab fa-github-square"></i></a>
-            <a href="https://www.linkedin.com/in/cecilialobo/"  target="blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            
         </div>
     );
 }
