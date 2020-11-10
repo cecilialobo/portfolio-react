@@ -59,3 +59,8 @@
   transition-property: font-size;
   transition-duration: 1s;
 }
+
+.fa-angle-down:hover {
+  font-size: 6rem;
+
+}
