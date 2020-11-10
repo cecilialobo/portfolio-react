@@ -12,7 +12,7 @@
   --shadow: 1px 1px #ab8d6b;
 }
 
-.section1 {
+.landing {
   background: rgb(245,235,229);
   background: linear-gradient(90deg, rgba(245,235,229,1) 0%, rgba(237,212,212,1) 90%);
   height: 100vh;
@@ -40,7 +40,7 @@
   animation-duration: 2s;
 }
 
-.section2 {
+.About {
   background-color: var(--white-color);
   height: 100vh;
 }
