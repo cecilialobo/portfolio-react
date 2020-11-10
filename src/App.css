@@ -30,16 +30,33 @@
 .frontend-title {
   font-family: 'Cutive Mono', monospace;
   font-size: 1.6rem;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 0.3rem;
   margin: 4rem;
   animation-name: start;
   animation-duration: 2s;
 }
 
-.About {
+.homeGrid {
   background-color: var(--white-color);
+  display: grid;
+  grid-template-areas: "section2 img";
+  grid-template-columns: 2fr 1fr;
   height: 100vh;
+}
+
+.About {
+  grid-area: section2;
+  place-self: center;
+  margin-left: 3rem;
+}
+
+.img {
+  width: 26vw;
+  height: 65vh;
+  grid-area: img;
+  place-self: center;
+  margin-right: 10rem;
 }
 
 .heading {
@@ -63,4 +80,13 @@
 .fa-angle-down:hover {
   font-size: 6rem;
 
+}
+
+@keyframes start {
+  0% {
+      opacity: 0%;
+  }
+  100% {
+      opacity: 100%;
+  }
 }
