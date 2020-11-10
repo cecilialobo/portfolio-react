@@ -1,0 +1,25 @@
+.Education {
+    background: rgb(245,235,229);
+    background: linear-gradient(90deg, rgba(245,235,229,1) 0%, rgba(237,212,212,1) 90%);
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.9rem;
+    color: var(--brown-color);
+    margin: 1rem 0 1rem 3rem;
+    text-align: left;
+}
+
+.textp {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.6;
+    color: var(--brown-color);
+    margin: 1rem 0 1rem 3rem;
+    width: 85%;
+}
