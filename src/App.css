@@ -13,11 +13,8 @@
 }
 
 .landing {
-  background: rgb(245,235,229);
-  background: linear-gradient(90deg, rgba(245,235,229,1) 0%, rgba(237,212,212,1) 90%);
   height: 100vh;
   text-align: center;
-  color: var(--brown-color);
 }
 
 .title {
@@ -48,13 +45,7 @@
 .heading {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 3.5rem;
-  color: var(--brown-color);
   margin: 1.6rem 4rem;
   grid-area: heading;
   text-shadow: var(--shadow);
-}
-
-.section3 {
-    background-color: var(--white-color);
-    margin: 4rem;
 }
