@@ -12,6 +12,7 @@ function App() {
       <div className="landing">
         <p className="frontend-title">Frontend Developer</p>
         <h1 className="title">Cecilia Lobo</h1>
+        <i className="fas fa-angle-down" id="arrowBtn"></i>
       </div>
 
       <About></About>

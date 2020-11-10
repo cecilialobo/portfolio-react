@@ -1,7 +1,11 @@
+.Contact {
+    background-color: var(--white-color);
+    height: 100vh;
+}
+
 .subtitle {
     font-family: 'Cutive Mono', monospace;
     font-size: 1.9rem;
-    color: var(--brown-color);
     margin: 1rem 0 1rem 3rem;
     text-align: left;
 }
@@ -11,7 +15,19 @@
     font-size: 1.2rem;
     text-align: justify;
     line-height: 1.6;
-    color: var(--brown-color);
     margin: 1rem 0 1rem 3rem;
     width: 85%;
+}
+
+.social-icon {
+    float: left; 
+    font-size: 2.5rem;
+    padding: 0;
+    color: var(--brown-color);
+    text-shadow: var(--shadow);
+    margin-left: 3rem;
+}
+
+.social-icon:hover {
+    color: rgb(179, 131, 118);
 }

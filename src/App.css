@@ -49,3 +49,13 @@
   grid-area: heading;
   text-shadow: var(--shadow);
 }
+
+.fa-angle-down {
+  font-size: 5rem;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  text-shadow: var(--shadow);
+  transition-property: font-size;
+  transition-duration: 1s;
+}
