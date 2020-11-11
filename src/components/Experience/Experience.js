@@ -6,7 +6,7 @@ function Experience (){
     return(
         <div className="Experience">
             <h2 className="heading">Experience</h2>
-            <div className="cv-content">
+            <div className="cvContent">
                 <h3 className="subtitle">Frontend Developer - Apprenticeship</h3>
                 <h4>Cribly</h4>
                 <p className="textp">Feb 2020 – Aug 2020 (7 months)</p>

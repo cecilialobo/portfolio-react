@@ -10,7 +10,7 @@ function Contact() {
             <br/>
             <h3 className="subtitle">Social</h3>
             <a href="https://github.com/cecilialobo" target="blank" className="social-icon"><i className="fab fa-github-square"></i></a>
-        <a href="https://www.linkedin.com/in/cecilialobo/"  target="blank" className="social-icon"><i className="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/cecilialobo/"  target="blank" className="social-icon" id="fa-linkedin"><i className="fab fa-linkedin"></i></a>
         </div>
     );
 }

@@ -12,26 +12,26 @@ function App() {
   return (
     <div className="App">
       <div className="landing">
-        <Header id1="curriculum" id2="contact" title1="Curriculum" title2="Contact"></Header>
+        <Header id1="curriculum" id2="contact" title1="Curriculum" title2="Contact" />
         <p className="frontend-title">Frontend Developer</p>
         <h1 className="title">Cecilia Lobo</h1>
         <i className="fas fa-angle-down" id="arrowBtn"></i>
       </div>
 
       <div className="homeGrid">
-      <About></About>
-      <img className="img" src={Photo} alt="Cecilia's image"></img>
+      <About />
+      <img className="img" src={Photo} alt="Cecilia smiling"></img>
       </div>
 
       <div className="curriculum">
-        <Header id1="landing" id2="contact2" title1="Home" title2="Contact"></Header>
-        <Education></Education>
-        <Experience></Experience>
+        <Header id1="landing" id2="contact2" title1="Home" title2="Contact" />
+        <Education />
+        <Experience />
       </div>
 
       <div className="contactDiv">
-        <Header id1="landing2" id2="curriculum2" title1="Home" title2="Curriculum"></Header>
-        <Contact></Contact>
+        <Header id1="landing2" id2="curriculum2" title1="Home" title2="Curriculum" />
+        <Contact />
       </div>
     </div>
   );

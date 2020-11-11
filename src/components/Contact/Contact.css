@@ -1,6 +1,7 @@
 .contactDiv {
     background-color: var(--pink-color);
     height: 100vh;
+    padding-left: 3rem;
 }
 
 .subtitle {
@@ -30,4 +31,8 @@
 
 .social-icon:hover {
     color: rgb(179, 131, 118);
+}
+
+#fa-linkedin {
+    margin-left: 0;
 }
