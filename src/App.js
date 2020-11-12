@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Photo from './assets/template.png';
 
 import './App.css';
+import './resposive.css';
 import './components/About/About.css';
 
 function App() {

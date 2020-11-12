@@ -1,3 +1,17 @@
+.homeGrid {
+    background-color: var(--white-color);
+    display: grid;
+    grid-template-areas: "section2 img";
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+  }
+  
+.About {
+  grid-area: section2;
+  place-self: center;
+  margin-left: 3rem;
+}
+
 .subtitle {
     font-family: 'Cutive Mono', monospace;
     font-size: 1.9rem;
@@ -15,3 +29,11 @@
     margin: 1rem 0 1rem 3rem;
     width: 85%;
 }
+
+.img {
+    width: 24vw;
+    height: 63vh;
+    grid-area: img;
+    place-self: center;
+    margin-right: 8rem;
+  }

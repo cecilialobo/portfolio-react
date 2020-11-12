@@ -1,0 +1,96 @@
+@media (max-width: 1430px) {
+    .About .textp {
+       width: 100%;
+    }
+    .img {
+       display: none;
+    }
+  }
+  
+@media (max-width: 1024px) {
+   .title {
+       font-size: 5rem;
+       margin-top: 10rem;
+   }
+   .frontend-title {
+       font-size: 1.3rem;
+   }
+   .fa-angle-down {
+       font-size: 4.5rem;
+   }
+   .heading {
+       font-size: 3rem;
+   }
+   .subtitle {
+       font-size: 1.5rem; 
+   }
+   .textp {
+       font-size: 1.1rem;
+   }
+}
+
+@media (max-width: 750px) {
+   .title {
+       font-size: 3.5rem;
+   }
+   .frontend-title {
+       font-size: 1rem;
+   }
+   .fa-angle-down {
+       font-size: 4rem;
+   }
+   .heading {
+       font-size: 2.8rem;
+       width: 100%;
+    }
+    .curriculum .heading {
+       margin: 0;
+    }
+   .subtitle {
+       font-size: 1.3rem; 
+    }
+   .textp {
+       font-size: 1rem;
+    }
+    h4 {
+       font-size: 1rem;
+    }
+    .Education, .Experience {
+        display: block;
+    }
+  }
+
+@media (max-width:600px) {
+   .homeGrid {
+       height: 130vh;  
+   }
+   .Contact .heading {
+       margin-left: 1rem;
+}
+}
+  
+@media (max-width: 350px) {
+   .title {
+       font-size: 2.5rem;
+       margin-top: 6.5rem;
+   }
+   .frontend-title {
+       font-size: 0.8rem;
+    }
+    .fa-angle-down {
+       font-size: 3.5rem;
+    }
+    .heading {
+        font-size: 2rem;
+        width: 100%;
+      }
+    .subtitle {
+       font-size: 1.1rem; 
+    }
+    .textp {
+       font-size: 0.8rem;
+    }
+}
+
+  
+  

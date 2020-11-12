@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Nothing+You+Could+Do&display=swap');
@@ -35,28 +36,6 @@
   margin: 4rem;
   animation-name: start;
   animation-duration: 2s;
-}
-
-.homeGrid {
-  background-color: var(--white-color);
-  display: grid;
-  grid-template-areas: "section2 img";
-  grid-template-columns: 2fr 1fr;
-  height: 100vh;
-}
-
-.About {
-  grid-area: section2;
-  place-self: center;
-  margin-left: 3rem;
-}
-
-.img {
-  width: 26vw;
-  height: 65vh;
-  grid-area: img;
-  place-self: center;
-  margin-right: 10rem;
 }
 
 .heading {
