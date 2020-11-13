@@ -1,4 +1,4 @@
-@media (max-width: 1430px) {
+@media screen and (max-width: 1430px) {
     .About .textp {
        width: 100%;
     }
@@ -7,7 +7,7 @@
     }
   }
   
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
    .title {
        font-size: 5rem;
        margin-top: 10rem;
@@ -29,7 +29,7 @@
    }
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
    .title {
        font-size: 3.5rem;
    }
@@ -60,7 +60,7 @@
     }
   }
 
-@media (max-width:600px) {
+@media screen and (max-width:600px) {
    .homeGrid {
        height: 130vh;  
    }
@@ -69,7 +69,7 @@
 }
 }
   
-@media (max-width: 350px) {
+@media screen and (max-width: 350px) {
    .title {
        font-size: 2.5rem;
        margin-top: 6.5rem;
@@ -92,5 +92,39 @@
     }
 }
 
+@media screen and (max-height: 300px) {
+    .landing {
+        height: fit-content;
+    }
+
+    .homeGrid {
+        height: fit-content;
+    }
+
+    .img {
+        display: none;
+    }
+    
+    .title {
+        margin: 0;
+        font-size: 4rem;
+    }
+
+    .fa-angle-down {
+        display: none;
+    }
+
+    .Education {
+        height: fit-content;
+    }
+
+    .Experience {
+        height: fit-content;
+    }
+
+    .contactDiv {
+        height: fit-content;
+    }
+}
   
   
