@@ -41,7 +41,6 @@
    }
    .heading {
        font-size: 2.8rem;
-       width: 100%;
     }
     .curriculum .heading {
        margin: 0;
@@ -61,17 +60,17 @@
   }
 
 @media screen and (max-width:600px) {
-   .homeGrid {
-       height: 130vh;  
-   }
    .Contact .heading {
        margin-left: 1rem;
-}
+   }
+   .Header {
+    justify-content: center;
+   }
 }
   
 @media screen and (max-width: 350px) {
    .title {
-       font-size: 2.5rem;
+       font-size: 3rem;
        margin-top: 6.5rem;
    }
    .frontend-title {
@@ -83,14 +82,14 @@
     .heading {
         font-size: 2rem;
         width: 100%;
-      }
+    }
     .subtitle {
        font-size: 1.1rem; 
     }
     .textp {
        font-size: 0.8rem;
     }
-}
+} 
 
 @media screen and (max-height: 300px) {
     .landing {

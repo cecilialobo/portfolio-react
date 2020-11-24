@@ -3,7 +3,7 @@
     display: grid;
     grid-template-areas: "section2 img";
     grid-template-columns: 2fr 1fr;
-    height: 100vh;
+    height: fit-content;
   }
   
 .About {

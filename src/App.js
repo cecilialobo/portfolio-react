@@ -51,6 +51,7 @@ function App() {
           handleClickMenu2={() => scrollIntoView(contactRef)}
         />
         <Education />
+        <br/>
         <Experience />
       </div>
 
