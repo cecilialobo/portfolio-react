@@ -64,12 +64,3 @@
   background: rgb(245,235,229);
   background: linear-gradient(90deg, rgba(245,235,229,1) 0%, rgba(237,212,212,1) 90%);
 }
-
-@keyframes start {
-  0% {
-      opacity: 0%;
-  }
-  100% {
-      opacity: 100%;
-  }
-}
